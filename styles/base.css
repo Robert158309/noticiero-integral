@@ -15,6 +15,26 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Black.ttf') format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../assets/fonts/Outfit-VariableFont_wght.ttf') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('woff2');
+    font-weight: 400;
+}
+
+
 :root {
     --text-main: #FFFFFF;
     --navbar-color: #0A2540;

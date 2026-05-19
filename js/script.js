@@ -1,4 +1,5 @@
-fetch("../assets/data/verses.json")
+fetch("./assets/data/verses.json")
+
   .then(res => res.json())
   .then(data => {
     const random = data[Math.floor(Math.random() * data.length)];

@@ -53,6 +53,68 @@
     opacity: 0.8;
 }
 
+/* CARDS DE IDENTIFICACION */
+.cards-container {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 25px !important;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.card-container {
+    perspective: 1000px;
+    width: 250px;
+    height: 350px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+/* efecto hover flip */
+.card-container:hover .card {
+    transform: rotateY(180deg);
+}
+
+/* ambas caras */
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid var(--secondary-color);
+    background: var(--bg-section);
+    color: var(--text-section);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* frente */
+.card-front img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+/* atrás */
+.card-back {
+    transform: rotateY(180deg);
+    text-align: center;
+}
+
 @media (max-width: 768px) {
 
     .biblecard {
