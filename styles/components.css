@@ -59,20 +59,21 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
-    gap: 25px !important;
+    gap: 20px;
     justify-content: center;
     align-items: start;
     padding: 20px;
-    width: 90%;
+    width: 95%;
     margin: 30px auto;
+    font-size: 12px;
 }
 
 .card-container {
     perspective: 1000px;
-    width: 250px;
-    height: 350px;
+    width: 200px; /* antes 250px */
+    height: 300px;
 }
 
 .card {
@@ -84,8 +85,12 @@
 }
 
 /* efecto hover flip */
-.card-container:hover .card {
+.card.flipped {
     transform: rotateY(180deg);
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 /* ambas caras */
