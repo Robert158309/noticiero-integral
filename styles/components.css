@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    z-index: 999;
+}
+
+.fab {
+    width: 55px;
+    height: 55px;
+    background: var(--fab-btns);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+    background: var(--shadow-primary);
+}
+
+/* título */
+.biblecard h2 {
+    margin: 0;
+}
+
+/* contenedor del contenido */
+.biblecard p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* referencia a la derecha */
+.biblecard small {
+    align-self: flex-end;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.8;
+}

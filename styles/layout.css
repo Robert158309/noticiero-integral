@@ -1,0 +1,104 @@
+@charset "UT-8";
+
+nav {
+    width: 100%;
+    background-color: var(--navbar-color);
+    border-bottom: 2px solid var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+/* links agrupados */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* estilo general links */
+nav a {
+    color: var(--text-main);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navhover:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+/* logo */
+.logo {
+    width: 95px;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--navbar-color);
+    border-top: 2px solid var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--header-color);
+}
+
+.biblecard {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    color: var(--text-section);
+    background-color: var(--bg-section);
+    border-radius: 10px;
+    border: 5px solid var(--secondary-color);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titles {
+    font-weight: 600;
+    font-size: clamp(18px, 3vw, 28px);
+    text-align: center;
+    margin-bottom: 20px;
+    background: var(--navbar-color);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.two-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.two-columns > * {
+    flex: 1;
+    min-width: 500px;
+}
+
+article {
+    background-color: var(--bg-section);
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid var(--secondary-color);
+    backdrop-filter: blur(5px);
+    color: var(--text-section);
+}
