@@ -29,6 +29,13 @@
     background: var(--shadow-primary);
 }
 
+.biblecard {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .biblecard h2 {
     margin: 0;
 }

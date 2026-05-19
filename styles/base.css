@@ -1,14 +1,30 @@
 @charset "UTF-8";
 
+/* FONTS */
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_opsz\,wght.ttf') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
 :root {
-    --text-main: #f1f1f1;
-    --navbar-color: #1f52ddda;
+    --text-main: #FFFFFF;
+    --navbar-color: #0A2540;
     --primary-color: #d3defc;
-    --secondary-color: #ff5c5c;
-    --header-color: #969eb6;
-    --bg-section: #e0e0e0;
-    --text-section: #333;
+    --secondary-color: #d49e17;
+    --header-color: #8091c5;
+    --bg-section: #dce0e9;
+    --text-section: #333333;
     --fab-btns: #3f8ab669;
+    --project-card: #b9d9dfcb;
 }
 
 * {
@@ -18,7 +34,7 @@
 }
 
 body {
-    font-family: system-ui;
+    font-family: 'Inter', system-ui;
     background-color: var(--primary-color);
     min-height: 100vh;
     display: flex;
