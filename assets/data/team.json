@@ -1,0 +1,91 @@
+{
+    "karin": {
+        "name": "Karin Adriana Ajcot de Paz",
+        "identification": "2026-001",
+        "birth": "18/09/2009",
+        "area": "Informática",
+        "summary": "Apasionada por el entrenamiento físico y la disciplina personal. Disfruta mantener una rutina constante enfocada en la salud y el crecimiento personal. Además, muestra interés en la investigación de temas nacionales y en el análisis de problemáticas de actualidad.",
+        "image": "../assets/img/cards/karin.webp"
+    },
+
+    "estefany": {
+        "name": "Estefany Ajquejay Sanum",
+        "identification": "2026-002",
+        "birth": "14/08/2008",
+        "area": "Diseño Gráfico",
+        "summary": "Interesada en el diseño gráfico y en la creación de contenido visual creativo. También muestra interés por la investigación y el análisis de temas nacionales y de actualidad.",
+        "image": "../assets/img/cards/estefany.webp"
+    },
+
+    "esau": {
+        "name": "Saulo Esaú Chicoj Ramírez",
+        "identification": "2026-003",
+        "birth": "22/11/2008",
+        "area": "Diseño Gráfico",
+        "summary": "Apasionado por el diseño visual y la elaboración de contenido creativo. También mantiene interés en la investigación y comprensión de distintos temas relacionados con la actualidad nacional.",
+        "image": "../assets/img/cards/esau.webp"
+    },
+
+    "ligia": {
+        "name": "Ligia Isabel Gordillo Zelaya",
+        "identification": "2026-004",
+        "birth": "05/03/2008",
+        "area": "Biología",
+        "summary": "Interesada en la biología y en la investigación de bacterias y microorganismos. También muestra curiosidad por el análisis de temas científicos y de actualidad relacionados con el entorno nacional.",
+        "image": "../assets/img/cards/ligia.webp"
+    },
+
+    "roberto": {
+        "name": "Roberto Gustavo Monzón Gutierrez",
+        "identification": "2026-005",
+        "birth": "01/01/2000",
+        "area": "Informática",
+        "summary": "Interesado en la investigación de temas de actualidad nacional y en el análisis de la influencia de Guatemala a nivel internacional. También muestra interés por la tecnología, el aprendizaje constante y el desarrollo de nuevas habilidades.",
+        "image": "../assets/img/cards/roberto.webp"
+    },
+
+    "ashly": {
+        "name": "Ashly Janeth Noriega Alvarado",
+        "identification": "2026-006",
+        "birth": "17/09/2008",
+        "area": "Informática",
+        "summary": "Interesada en la informática y en la elaboración de informes y documentos organizados. También muestra interés por la investigación y el análisis de temas de actualidad relacionados con el país.",
+        "image": "../assets/img/cards/ashly.webp"
+    },
+
+    "vanessa": {
+        "name": "Vanessa Julissa Ochoa Bámaca",
+        "identification": "2026-007",
+        "birth": "28/06/2008",
+        "area": "Biología",
+        "summary": "Interesada en la biología y en el estudio de los seres vivos y el entorno natural. También muestra curiosidad por la investigación y el análisis de temas relacionados con la actualidad nacional.",
+        "image": "../assets/img/cards/vanessa.webp"
+    },
+
+    "jimena": {
+        "name": "Madison Jimena Orizabal Hernandez",
+        "identification": "2026-008",
+        "birth": "2008",
+        "area": "Finanzas",
+        "summary": "Disfruta de la lectura y del aprendizaje constante a través de distintos temas de interés. También mantiene interés por informarse y conocer más sobre situaciones y problemáticas de ámbito nacional.",
+        "image": "../assets/img/cards/jimena.webp"
+    },
+
+    "genesis": {
+        "name": "Génesis Mitssury Pérez Mendoza",
+        "identification": "2026-009",
+        "birth": "11/12/2008",
+        "area": "Biología",
+        "summary": "Interesada en la biología y en la comprensión de los procesos naturales que afectan a los seres vivos y al medio ambiente. También disfruta investigar y mantenerse informada sobre temas de actualidad y situaciones relevantes del país.",
+        "image": "../assets/img/cards/genesis.webp"
+    },
+
+    "diego": {
+        "name": "Diego Alejandro Vicente López",
+        "identification": "2026-010",
+        "birth": "03/04/2008",
+        "area": "Informática",
+        "summary": "Interesado en la informática y en el uso de herramientas tecnológicas para el aprendizaje y la resolución de problemas. También mantiene interés por investigar temas de actualidad y acontecimientos relevantes del país.",
+        "image": "../assets/img/cards/diego.webp"
+    }
+}

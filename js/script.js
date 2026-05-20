@@ -9,6 +9,8 @@ fetch("./assets/data/verses.json")
   });
 
 
+/* ----------------------------------------------------------- */
+
 const cards = document.querySelectorAll(".card-container");
 
 cards.forEach(cardContainer => {
@@ -20,5 +22,24 @@ cards.forEach(cardContainer => {
         card.classList.toggle("flipped");
 
     });
+
+});
+
+/* ----------------------------------------------------------- */
+
+fetch("../assets/data/team.json")
+    .then(response => response.json())
+    .then(data => {
+
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    const profile = data[id];
+
+    document.getElementById("profile-image").src = profile.image;
+    document.getElementById("name").textContent = profile.name;
+    document.getElementById("identification").textContent = profile.identification;
+    document.getElementById("birth").textContent = profile.birth;
+    document.getElementById("area").textContent = profile.area;
+    document.getElementById("summary").textContent = profile.summary;
 
 });
