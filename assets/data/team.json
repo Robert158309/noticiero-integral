@@ -38,7 +38,7 @@
     "roberto": {
         "name": "Roberto Gustavo Monzón Gutierrez",
         "identification": "2026-005",
-        "birth": "01/01/2000",
+        "birth": "09/05/2008",
         "area": "Informática",
         "summary": "Interesado en la investigación de temas de actualidad nacional y en el análisis de la influencia de Guatemala a nivel internacional. También muestra interés por la tecnología, el aprendizaje constante y el desarrollo de nuevas habilidades.",
         "image": "../assets/img/cards/roberto.webp"
@@ -74,7 +74,7 @@
     "genesis": {
         "name": "Génesis Mitssury Pérez Mendoza",
         "identification": "2026-009",
-        "birth": "11/12/2008",
+        "birth": "12/02/2009",
         "area": "Biología",
         "summary": "Interesada en la biología y en la comprensión de los procesos naturales que afectan a los seres vivos y al medio ambiente. También disfruta investigar y mantenerse informada sobre temas de actualidad y situaciones relevantes del país.",
         "image": "../assets/img/cards/genesis.webp"
@@ -83,7 +83,7 @@
     "diego": {
         "name": "Diego Alejandro Vicente López",
         "identification": "2026-010",
-        "birth": "03/04/2008",
+        "birth": "04/12/2007",
         "area": "Informática",
         "summary": "Interesado en la informática y en el uso de herramientas tecnológicas para el aprendizaje y la resolución de problemas. También mantiene interés por investigar temas de actualidad y acontecimientos relevantes del país.",
         "image": "../assets/img/cards/diego.webp"
